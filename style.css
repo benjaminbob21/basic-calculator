@@ -24,18 +24,18 @@ body {
 }
 #keys {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 10px;
   padding: 25px;
 }
 button {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   border: none;
   background-color: hsl(0, 0%, 30%);
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   cursor: pointer;
 }
@@ -53,4 +53,22 @@ button:active{
 }
 .operator-btn:active{
     background-color: hsl(35, 100%, 75%);
+}
+.del-btn{
+    background-color: hsl(0, 87%, 34%);
+}
+.del-btn:hover{
+    background-color: hsl(0, 87%, 44%);
+}
+.del-btn:active{
+    background-color: hsl(0, 87%, 54%);
+}
+.extra-btn{
+    background-color: hsl(0, 1%, 67%);
+}
+.extra-btn:hover{
+    background-color: hsl(0, 1%, 77%);
+}
+.extra-btn:active{
+    background-color: hsl(0, 1%, 77%);
 }
